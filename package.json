@@ -1,0 +1,24 @@
+{
+  "name": "softex-backend",
+  "version": "1.0.0",
+  "description": "- Introduções e conhecimentos gerais     - Professor: Silvio Monte (Desenvolvedor Back End e Engenheiro de Redes)     - Instalação do Node     - Estudo sobre lógica de programação e variáveis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansao77/softex-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Sansao77/softex-backend/issues"
+  },
+  "homepage": "https://github.com/Sansao77/softex-backend#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
