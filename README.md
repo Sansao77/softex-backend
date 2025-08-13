@@ -71,3 +71,8 @@
             a. push - Adiciona um elemento no final do array
             b. pop - Removee o ultimo elemento listado no array
             c. length - Retorna o tamanho do array (quantos elementos ele tem)
+
+## 4º Aula
+
+    - Apresentações sobre modelos ageis
+    - Revisão das atividades e assuntos concluidos
