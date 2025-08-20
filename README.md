@@ -76,3 +76,10 @@
 
     - Apresentações sobre modelos ageis
     - Revisão das atividades e assuntos concluidos
+
+## 5º Aula
+
+    - Estudo sobre Vetores
+        - variáveis que tem mais de um dado armazenado
+
+    - Processo e Fases do Desenvolvimento de Software

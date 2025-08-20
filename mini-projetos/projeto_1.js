@@ -18,6 +18,10 @@ function operacoes(valor1, valor2, operacao){
             return "\nO resultado de " + valor1 + " * " + valor2 + " é igual a " + (valor1 * valor2);
         case 4:
             return "\nO resultado de " + valor1 + "/" + valor2 + " é igual a " + ((valor1/valor2).toFixed(2));
+        case 5:
+            return "\nO resultado de " + valor1 + "^" + valor2 + " é igual a " + (valor1 ** valor2);
+        case 6:
+            return "\nO resultado da raiz " + valor2 + " de " + valor1 + " é igual a " + Math.pow(valor1, 1/valor2);
     }
 
     return "\nResposta não válida";
@@ -30,12 +34,11 @@ function main(){
 
     do{
         console.log("Qual ação gostaria de realizar? (Por favor só use números como resposta, para sair use o comando FINALIZAR)\n"
-            +"0 - FINALIZAR   | 1 - SOMAR   | 2 - SUBTRAIR   | 3 - MULTIPLICAR   | 4 - DIVIDIR");
+            +"0 - FINALIZAR   | 1 - SOMAR   | 2 - SUBTRAIR   | 3 - MULTIPLICAR   | 4 - DIVIDIR | 5 - EXPONENCIAL | 6 - RAIZ N");
 
         resposta = parseInt(prompt("R: "));
-        console.log(resposta);
 
-        if(Number.isNaN(resposta) || resposta > 4 || resposta < 0){
+        if(Number.isNaN(resposta) || resposta > 6 || resposta < 0){
             console.log("\nEssa resposta não é valida para o sistema, RECOMECE!\n");
             continue;
         }
