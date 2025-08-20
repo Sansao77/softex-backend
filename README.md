@@ -83,3 +83,7 @@
         - variáveis que tem mais de um dado armazenado
 
     - Processo e Fases do Desenvolvimento de Software
+
+## 6º Aula
+    - Funções
+        - Blocos de código que realizam tarefas específicas e que podem ser reutilizadas
