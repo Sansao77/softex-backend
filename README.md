@@ -89,3 +89,7 @@
 ## 6º Aula
     - Funções
         - Blocos de código que realizam tarefas específicas e que podem ser reutilizadas
+
+## 7º Aula
+    - Apresentação sobre Requisitos funcionais e não funcionais, desenvolvimento de um projeto e entrega ao cliente
+    - Estudo sobre Git e Github
