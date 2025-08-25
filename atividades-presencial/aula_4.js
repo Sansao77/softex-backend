@@ -1,14 +1,14 @@
-import promptSync from 'prompt-sync';
+//import promptSync from 'prompt-sync';
 
 // Atividades Práticas
 
-const prompt = promptSync();
+//const prompt = promptSync();
 
 // Atividade 1 - Par ou Impar
 
 function atividade1(){
     console.log("Qual o número?");
-    const valor = parseInt(prompt("R: "));
+    const valor = parseInt(prompt("R:"));
 
     console.log("\nO numero ", valor, " é ", (valor%2 === 0)? "par":"impar");
 }
@@ -29,7 +29,7 @@ function categoriaMedia(media){
 
 function atividade2(){
     console.log("Qual foi sua média final?");
-    const media = Number(prompt("R: "));
+    const media = Number(prompt("R:"));
 
     console.log("\nCatégoria da media final:", categoriaMedia(media));
 }
@@ -52,10 +52,10 @@ function tabelaIMC(imc){
 
 function atividade3(){
     console.log("Qual o seu peso (em kg)?");
-    const peso = Number(prompt("R: "));
+    const peso = Number(prompt("R:"));
 
     console.log("\nQual a sua altura (em metros)?");
-    const altura = Number(prompt("R: "));
+    const altura = Number(prompt("R:"));
 
     const imc = (peso/(altura*altura)).toFixed(2);
 

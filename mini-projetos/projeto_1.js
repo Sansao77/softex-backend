@@ -1,4 +1,4 @@
-import PromptSync from "prompt-sync";
+//import PromptSync from "prompt-sync";
 
 
 /**
@@ -29,14 +29,14 @@ function operacoes(valor1, valor2, operacao){
 
 function main(){
     console.log("Sistema de Calculadora simples\n");
-    const prompt = PromptSync();
+    //const prompt = PromptSync();
     let resposta;
 
     do{
         console.log("Qual ação gostaria de realizar? (Por favor só use números como resposta, para sair use o comando FINALIZAR)\n"
             +"0 - FINALIZAR   | 1 - SOMAR   | 2 - SUBTRAIR   | 3 - MULTIPLICAR   | 4 - DIVIDIR | 5 - EXPONENCIAL | 6 - RAIZ N");
 
-        resposta = parseInt(prompt("R: "));
+        resposta = parseInt(prompt("R:"));
 
         if(Number.isNaN(resposta) || resposta > 6 || resposta < 0){
             console.log("\nEssa resposta não é valida para o sistema, RECOMECE!\n");
@@ -46,10 +46,10 @@ function main(){
             console.log("\nDefina os valores os 2 valores que serão usados");
 
             console.log("Primeiro valor")
-            const valor1 = Number(prompt("R: "));
+            const valor1 = Number(prompt("R:"));
 
             console.log("\nSegundo valor")
-            const valor2 = Number(prompt("R: "));
+            const valor2 = Number(prompt("R:"));
 
             console.log(operacoes(valor1, valor2, resposta) + "\n\n");
         }

@@ -1,5 +1,5 @@
-import PromptSync from 'prompt-sync';
-const prompt = PromptSync();
+//import PromptSync from 'prompt-sync';
+//const prompt = PromptSync();
 
 // Atividades Práticas
 
@@ -8,7 +8,7 @@ const prompt = PromptSync();
 
 function atividade1(){
     console.log("Qual será o valor de N? (somente números inteiros)");
-    const n = parseInt(prompt("R: "));
+    const n = parseInt(prompt("R:"));
 
     console.log("\nContagem:");
     for(let i = 1; i<=n; i++) console.log(i);
@@ -18,7 +18,7 @@ function atividade1(){
 
 function atividade2(){
     console.log("Qual o número da tabuada? (somente números inteiros)");
-    const valor_tabuada = parseInt(prompt("R: "));
+    const valor_tabuada = parseInt(prompt("R:"));
 
     console.log("\nTabuada do " + valor_tabuada);
 
@@ -50,7 +50,7 @@ function atividade4(){
 
     console.log("Loop infinito, digite qualquer valor (caso queira sair, digite 0)")
     while(true){
-        const valor = Number(prompt("R: "));
+        const valor = Number(prompt("R:"));
 
         if(valor === valor_condicao) break;
 

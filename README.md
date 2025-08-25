@@ -1,5 +1,7 @@
 # Softex (BFD) - Back End (Node)
 
+> Obs. Desse commit em dianti o sistema vai rodar usando o [Deno](https://deno.com/) para rodar os códigos e projetos
+
 ## 1º Aula (Introdução)
 
     - Introduções e conhecimentos gerais

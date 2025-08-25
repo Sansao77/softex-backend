@@ -1,5 +1,5 @@
-import PromptSync from 'prompt-sync';
-const prompt = PromptSync();
+//import PromptSync from 'prompt-sync';
+//const prompt = PromptSync();
 
 // Atividades Práticas
 
@@ -10,7 +10,7 @@ function atividade1(){
 
     while(nomes.length < 5){
         console.log("Qual o " + (nomes.length + 1) + "º nome?");
-        const nome = prompt("R: ");
+        const nome = prompt("R:");
         nomes.push(nome);
     }
 
@@ -25,7 +25,7 @@ function atividade2(){
 
     while(numeros.length < 4){
         console.log("Qual o " + (numeros.length + 1) + "º número?");
-        const numero = Number(prompt("R: "));
+        const numero = Number(prompt("R:"));
         numeros.push(numero);
 
         total += numero;
@@ -42,7 +42,7 @@ function atividade3(){
 
     while(nomes.length < 3){
         console.log("Qual o " + (nomes.length + 1) + "º nome?");
-        const nome = prompt("R: ");
+        const nome = prompt("R:");
         nomes.push(nome);
     }
 
@@ -60,7 +60,7 @@ function atividade4(){
 
     while(numeros.length < tentativas){
         console.log("Qual o " + (numeros.length + 1) + "º número? (", (tentativas - numeros.length), "tentativa(s) restando)");
-        const numero = Number(prompt("R: "));
+        const numero = Number(prompt("R:"));
 
         if(maior<numero) maior = numero;
 
