@@ -1,6 +1,6 @@
 # Softex (BFD) - Back End (Node)
 
-> Obs. Desse commit em dianti o sistema vai rodar usando o [Deno](https://deno.com/) para rodar os códigos e projetos
+> Obs. Desse commit em diante o sistema vai rodar usando o [Deno](https://deno.com/) para rodar os códigos e projetos
 
 ## 1º Aula (Introdução)
 
@@ -93,3 +93,11 @@
 ## 7º Aula
     - Apresentação sobre Requisitos funcionais e não funcionais, desenvolvimento de um projeto e entrega ao cliente
     - Estudo sobre Git e Github
+
+## 8º Aula
+    - Estudo sobre POO (Programação Orientada a Objetos)
+        - Encapsulamento
+        - Abstração
+        - Polimorfismo
+
+    - Instrodução a TypeScript
