@@ -44,8 +44,10 @@ const endereco1 = new Endereco("Baker", 221, "Londres");
 endereco1.formatar();
 
 // Atividade 3
+/*
+# Causava conflito com a classe do arquivo aula_9.ts
 
-class Pedido{
+ class Pedido{
     private id:string;
     private total:number;
 
@@ -71,3 +73,5 @@ const pedido = new Pedido("12345");
 pedido.mostrarValor();
 pedido.adicionarValor(5);
 pedido.mostrarValor();
+
+*/

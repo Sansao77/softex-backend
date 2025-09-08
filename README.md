@@ -101,3 +101,9 @@
         - Polimorfismo
 
     - Instrodução a TypeScript
+
+## 9º Aula
+    - Estudo sobre atributos, metodos e interação entre objetos
+        - Atributos: variáveis da classe
+        - Metodos: funções da classe
+        - Interação entre classes: é possível uma classe herdar os atributos e metodos de outra
