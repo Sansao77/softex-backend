@@ -1,7 +1,7 @@
 // Atividades Praticas
 
 // Atividade 1
-
+/*//Afetou o código da aula_10.ts
 class Cliente{
     private nome:string;
     private cpf:string;
@@ -21,7 +21,7 @@ cliente1.saudar();
 
 const cliente2 = new Cliente("Alison Silva Filipiano", "11111111111");
 cliente2.saudar();
-
+*/
 // Atividade 2
 
 class Endereco{
