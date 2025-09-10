@@ -2,14 +2,14 @@
 
 > Obs. Desse commit em diante o sistema vai rodar usando o [Deno](https://deno.com/) para rodar os códigos e projetos
 
-## 1º Aula (Introdução)
+## 1º Aula (Introdução) [[Atividade relacionada](./atividades-presencial/modulo-1/aula_1.js)]
 
     - Introduções e conhecimentos gerais
     - Professor: Silvio Monte (Desenvolvedor Back End e Engenheiro de Redes)
     - Instalação do Node
     - Estudo sobre lógica de programação e variáveis
 
-## 2º Aula
+## 2º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_2.js)]
 
     1. Explicação sobre variáveis (var, let e const):
         - var: tipo de variável antigo, mutavel e global
@@ -60,7 +60,7 @@
         - OU (OR): || (Pelo menos um deve ser verdadeiro para ser verdade)
         - NÃO (NOT): ! (Inverte o valor verdade para falso e vice-versa)
 
-## 3º Aula
+## 3º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_3.js)]
 
     1. Estruturas de Repetição
         - for: faça uma ação repetidamente dentro de um número de vezes determinado
@@ -74,36 +74,56 @@
             b. pop - Removee o ultimo elemento listado no array
             c. length - Retorna o tamanho do array (quantos elementos ele tem)
 
-## 4º Aula
+## 4º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_4.js)]
 
     - Apresentações sobre modelos ageis
     - Revisão das atividades e assuntos concluidos
 
-## 5º Aula
+## 5º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_5.js)]
 
     - Estudo sobre Vetores
         - variáveis que tem mais de um dado armazenado
 
     - Processo e Fases do Desenvolvimento de Software
 
-## 6º Aula
+## 6º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_6.js)]
+
     - Funções
         - Blocos de código que realizam tarefas específicas e que podem ser reutilizadas
 
-## 7º Aula
+## 7º Aula [[Atividade relacionada](./atividades-presencial/modulo-1/aula_7.js)]
+
     - Apresentação sobre Requisitos funcionais e não funcionais, desenvolvimento de um projeto e entrega ao cliente
     - Estudo sobre Git e Github
 
-## 8º Aula
+## 8º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_8.ts)]
+
     - Estudo sobre POO (Programação Orientada a Objetos)
         - Encapsulamento
         - Abstração
         - Polimorfismo
 
-    - Instrodução a TypeScript
+    - Introdução a TypeScript
 
-## 9º Aula
+## 9º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_9.ts)]
+
     - Estudo sobre atributos, metodos e interação entre objetos
         - Atributos: variáveis da classe
         - Metodos: funções da classe
         - Interação entre classes: é possível uma classe herdar os atributos e metodos de outra
+
+## 10º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_10.ts)]
+
+    1. Sintaxe da linguagem OO em TypeScript
+        - Modificadores de Acesso/Visibilidade
+            - public (padrão/default): acessível em qualquer lugar
+            - protected: acessível dentro da classe e de suas subclasses
+            - private: acessível apenas dentro da propria classe;
+        
+        - Parâmetros Opcionais
+            - readonly: valor só pode ser definido no constructor, depois não muda
+            - ? : Torna um atributo opcional
+    
+    2. Abstração: Definição e Uso de Classes Abstratas
+        - Em POO, significa criar um modelo genérico para entidades relacionadas
+        - Implementação concreta fica nas subclasses
