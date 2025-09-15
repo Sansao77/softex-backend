@@ -1,4 +1,4 @@
-// Atividades Praticas - 
+// Atividades Praticas - Sintaxe da linguagem OO (Orientação de Objetos) em TypeScript
 
 // Atividade 1
 
@@ -58,7 +58,7 @@ class Veiculo{
     }
 }
 
-// Atividades Praticas - 
+// Atividades Praticas - Abstração: Definição e Uso de Classes Abstratas
 
 // Atividade 1
 

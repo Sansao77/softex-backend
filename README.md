@@ -114,7 +114,7 @@
 
 ## 10º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_10.ts)]
 
-    1. Sintaxe da linguagem OO em TypeScript
+    1. Sintaxe da linguagem OO (Orientação de Objetos) em TypeScript
         - Modificadores de Acesso/Visibilidade
             - public (padrão/default): acessível em qualquer lugar
             - protected: acessível dentro da classe e de suas subclasses
@@ -129,3 +129,8 @@
         - Implementação concreta fica nas subclasses
 
     3. Estudo de Engenharia de Software - Analise Orientada a Objetos e UML
+
+## 11º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_11.ts)]
+
+    - Estudo sobre Interface
+    - Apresentação sobre UML
