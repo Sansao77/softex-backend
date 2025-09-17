@@ -75,7 +75,7 @@ class Livro{
 }
 
 class Biblioteca{
-    constructor(private livros?: Livro[]){}
+    constructor(private livros: Livro[] = []){}
 
     public adicionarLivro(livro: Livro){
         this.livros?.push(livro);
