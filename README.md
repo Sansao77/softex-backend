@@ -134,3 +134,8 @@
 
     - Estudo sobre Interface
     - Apresentação sobre UML
+
+## 12º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_12.ts)]
+
+    - Estudo sobre encapsulamento de atributos
+        - Uso de Get e Set
