@@ -139,3 +139,7 @@
 
     - Estudo sobre encapsulamento de atributos
         - Uso de Get e Set
+
+## 13º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_13.ts)]
+
+    - Estudo sobre erros e throws
