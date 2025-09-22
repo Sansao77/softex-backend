@@ -2,6 +2,10 @@
 
 > Obs. Desse commit em diante o sistema vai rodar usando o [Deno](https://deno.com/) para rodar os códigos e projetos
 
+## Projetos Relacionados ao curso
+
+    - Projeto do Modulo 1 - [Votação de Cardeais](https://github.com/Sansao77/eleicao_papa)
+
 ## 1º Aula (Introdução) [[Atividade relacionada](./atividades-presencial/modulo-1/aula_1.js)]
 
     - Introduções e conhecimentos gerais
@@ -143,3 +147,7 @@
 ## 13º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_13.ts)]
 
     - Estudo sobre erros e throws
+
+## 14º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_14.ts)]
+
+    - Estudo sobre modelagem de projetos e classes utilizando UML (Unified Modeling Language)
