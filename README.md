@@ -151,3 +151,41 @@
 ## 14º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_14.ts)]
 
     - Estudo sobre modelagem de projetos e classes utilizando UML (Unified Modeling Language)
+
+## 15º Aula
+
+    - Testes de Software para Backend com TypeScript
+        - Definições
+
+            1. Teste de Software: Processo de executar um programa com a intenção de encontrar erros e verificar se ele atende aos requisitos específicados
+            2. Teste Unitário 
+
+                - Testa uma unidade mínima do código (Ex: uma função ou metodo)
+                - Garante que um metodo isolado funciona como esperado
+                - Exemplo: verificar se adicionarEstoque() realmente aumenta a quantidade
+
+            3. Teste de Integração
+
+                - Testa a comunicação entre diferentes partes do sistema
+                - Exemplo: verificar se ao registrar uma Entrada o estoque total do Produto é atualizado corretamente
+
+            4. Teste Automatizado
+
+                - Teste escrito em código, executando automaticamente sempre que necessário
+                - Vantagem: pode ser repetido várias vezes, sem depender de execução manual
+
+            5. Frameworks de Testes
+
+                - Ferramenta que auxilia a escrever e executar testes
+                - No Typescript/Javascript, os mais usados são: [Jest](https://jestjs.io/) , [Mocha](https://mochajs.org/next/) , [Chai](https://www.chaijs.com/)
+
+        - Boas práticas em testes
+
+            - Testar pequenas partes isoladas primeiro (unidade)
+            - Cobrir cenários normais e de erro (casos extremos)
+            - Automatizar sempre que possível
+            - Nomear testes de forma clara: um bom nome já explica o que está sendo testado
+            - Aplicar o princípio AAA
+                - Arange: preparar os dados do teste
+                - Act: Executar a ação
+                - Assert: Verificar o resultado
