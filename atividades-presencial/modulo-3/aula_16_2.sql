@@ -19,9 +19,9 @@ Relacionamentos:
 Cardinalidade:
     Aluno(1) --- (1)Matricula
     Matricula(N) --- (1) Curso
-    Curso(1) --- (N) Disciplina
-    Curso(N) --- (N) Professor
-    Professor(N) --- (N) Disciplina
+    Curso(N) --- (1) Professor
+    Curso(N) --- (N) Disciplina
+    Professor(1) --- (1) Disciplina
 */
 
 -- Atividade Física
@@ -61,11 +61,9 @@ CREATE TABLE Disciplina(
 )
 
 CREATE TABLE Matricula(
-    id INT PRIMARY KEY AUTO_INCREMENT,
     aluno_id INT NOT NULL,
     curso_id INT NOT NULL,
-    data_inicio DATE NOT NULL,
-    data_fim DATE NOT NULL,
+    data_matricula DATE NOT NULL,
     FOREIGN KEY (aluno_id) REFERENCES Aluno(id),
     FOREIGN KEY (curso_id) REFERENCES Curso(id)
 )

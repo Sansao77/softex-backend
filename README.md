@@ -271,6 +271,33 @@
     - 1:N (Um para Muitos) ---> Ex: Cliente (1) ------ (N) Pedidos
     - N:N (Muitos para Muitos) ---> Ex: Aluno (N) ------ (N) Disciplina
 
-  5. Exemplo de DER (Diagrama de Entidade-Relacionamento) + SQL na (atividade 2 da aula 16)[./atividades-presencial/modulo-3/aula_16_2.sql]
+  5. Exemplo de DER (Diagrama de Entidade-Relacionamento) + SQL na [atividade 2 da aula 16](./atividades-presencial/modulo-3/aula_16_2.sql)
 
-    ![Diagrama de Entidade-Relacionamento](./public/drawSQL-image.png "Diagrama de Entidade-Relacionamento")
+    ![Diagrama de Entidade-Relacionamento](./public/drawSQL-16-image.png "Diagrama de Entidade-Relacionamento")
+
+## 17º Aula
+
+- Modelo Lógico Relacional e Chaves
+
+  - Princípios do Modelo Relacional
+  - Vantagens do Modelo Relacional
+  - Diferenças entre Modelos de Dados
+  - Tipos de Chaves relacionais
+    - Chave Primária (Primary Key - PK)
+    - Chave Estrangeira (Foreign Key - FK)
+    - Chave Candidata (Candidate Key)
+    - Chave Composta
+
+  - Integridade dos Dados
+
+    - Integridade de Entidade
+    - Integridade Referêncial
+
+  - Técnicas de Modelagem Relacional
+    - Adição de Colunas
+    - Tabela Propria (Associação)
+    - Fusão de Tabelas
+
+- Exemplo: Resolução para atividade sobre a base de dados de um hospital [mais detalhes no código](./atividades-presencial/modulo-3/aula_17.sql)
+
+  ![Diagrama do Modelo Hospitalar](./public/drawSQL-17-image.png "Diagrama do Modelo Hospitalar")
