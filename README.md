@@ -119,18 +119,20 @@
 ## 10º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_10.ts)]
 
 1. Sintaxe da linguagem OO (Orientação de Objetos) em TypeScript
-    - Modificadores de Acesso/Visibilidade
-        - public (padrão/default): acessível em qualquer lugar
-        - protected: acessível dentro da classe e de suas subclasses
-        - private: acessível apenas dentro da propria classe;
 
-    - Parâmetros Opcionais
-        - readonly: valor só pode ser definido no constructor, depois não muda
-        - ? : Torna um atributo opcional
+  - Modificadores de Acesso/Visibilidade
+      - public (padrão/default): acessível em qualquer lugar
+      - protected: acessível dentro da classe e de suas subclasses
+      - private: acessível apenas dentro da propria classe;
+
+  - Parâmetros Opcionais
+      - readonly: valor só pode ser definido no constructor, depois não muda
+      - ? : Torna um atributo opcional
 
 2. Abstração: Definição e Uso de Classes Abstratas
-    - Em POO, significa criar um modelo genérico para entidades relacionadas
-    - Implementação concreta fica nas subclasses
+
+  - Em POO, significa criar um modelo genérico para entidades relacionadas
+  - Implementação concreta fica nas subclasses
 
 3. Estudo de Engenharia de Software - Analise Orientada a Objetos e UML
 
@@ -142,7 +144,8 @@
 ## 12º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_12.ts)]
 
 - Estudo sobre encapsulamento de atributos
-    - Uso de Gets e Sets
+
+  - Uso de Gets e Sets
 
 ## 13º Aula [[Atividade relacionada](./atividades-presencial/modulo-2/aula_13.ts)]
 
@@ -154,126 +157,130 @@
 
 ## 15º Aula
 
-- Testes de Software para Backend com TypeScript
-  - Definições
+### Testes de Software para Backend com TypeScript
 
-      1. Teste de Software: Processo de executar um programa com a intenção de encontrar erros e verificar se ele atende aos requisitos específicados
-      2. Teste Unitário
+#### Definições
 
-          - Testa uma unidade mínima do código (Ex: uma função ou metodo)
-          - Garante que um metodo isolado funciona como esperado
-          - Exemplo: verificar se adicionarEstoque() realmente aumenta a quantidade
+1. Teste de Software: Processo de executar um programa com a intenção de encontrar erros e verificar se ele atende aos requisitos específicados
+2. Teste Unitário
 
-      3. Teste de Integração
+  - Testa uma unidade mínima do código (Ex: uma função ou metodo)
+  - Garante que um metodo isolado funciona como esperado
+  - Exemplo: verificar se adicionarEstoque() realmente aumenta a quantidade
 
-          - Testa a comunicação entre diferentes partes do sistema
-          - Exemplo: verificar se ao registrar uma Entrada o estoque total do Produto é atualizado corretamente
+3. Teste de Integração
 
-      4. Teste Automatizado
+  - Testa a comunicação entre diferentes partes do sistema
+  - Exemplo: verificar se ao registrar uma Entrada o estoque total do Produto é atualizado corretamente
 
-          - Teste escrito em código, executando automaticamente sempre que necessário
-          - Vantagem: pode ser repetido várias vezes, sem depender de execução manual
+4. Teste Automatizado
 
-      5. Frameworks de Testes
+  - Teste escrito em código, executando automaticamente sempre que necessário
+  - Vantagem: pode ser repetido várias vezes, sem depender de execução manual
 
-          - Ferramenta que auxilia a escrever e executar testes
-          - No Typescript/Javascript, os mais usados são: [Jest](https://jestjs.io/) , [Mocha](https://mochajs.org/next/) , [Chai](https://www.chaijs.com/)
+5. Frameworks de Testes
 
+  - Ferramenta que auxilia a escrever e executar testes
+  - No Typescript/Javascript, os mais usados são: [Jest](https://jestjs.io/) , [Mocha](https://mochajs.org/next/) , [Chai](https://www.chaijs.com/)
   - Boas práticas em testes
 
-      - Testar pequenas partes isoladas primeiro (unidade)
-      - Cobrir cenários normais e de erro (casos extremos)
-      - Automatizar sempre que possível
-      - Nomear testes de forma clara: um bom nome já explica o que está sendo testado
-      - Aplicar o princípio AAA
-          - Arange: preparar os dados do teste
-          - Act: Executar a ação
-          - Assert: Verificar o resultado
+  - Testar pequenas partes isoladas primeiro (unidade)
+  - Cobrir cenários normais e de erro (casos extremos)
+  - Automatizar sempre que possível
+  - Nomear testes de forma clara: um bom nome já explica o que está sendo testado
+  - Aplicar o princípio AAA
+
+    - Arange: preparar os dados do teste
+    - Act: Executar a ação
+    - Assert: Verificar o resultado
 
 ## 16º Aula
 
-- Introdução a Dados, Informação e Modelagem de Banco de Dados
+### Introdução a Dados, Informação e Modelagem de Banco de Dados
 
-  1. Dado, informação e banco de dados:
+1. Dado, informação e banco de dados:
 
-    - Dado: é uma entidade que possui características e comportamentos
-    - Informação: é o conhecimento sobre um dado, obtido através de processamento ou análise
-    - Banco de Dados: é uma coleção organizada de dados, armazenados e gerenciados por um sistema de gerenciamento de banco de dados
+  - Dado: é uma entidade que possui características e comportamentos
+  - Informação: é o conhecimento sobre um dado, obtido através de processamento ou análise
+  - Banco de Dados: é uma coleção organizada de dados, armazenados e gerenciados por um sistema de gerenciamento de banco de dados
 
-  2. O que é um SGBD (Sistema de Gerenciamento de Banco de Dados)
+2. O que é um SGBD (Sistema de Gerenciamento de Banco de Dados)
 
-    - É um software que permite criar, gerenciar e manipular bancos de dados relacionais ou não relacionais
-    - Exemplos: MySQL, PostgreSQL, MongoDB, Firebase, etc.
+  - É um software que permite criar, gerenciar e manipular bancos de dados relacionais ou não relacionais
+  - Exemplos: MySQL, PostgreSQL, MongoDB, Firebase, etc.
 
-  3. Explique a diferença entre modelo conceitual, lógico e físico
+3. Explique a diferença entre modelo conceitual, lógico e físico
 
-    - Modelo Conceitual: é uma representação abstrata dos dados, sem se preocupar com detalhes técnicos
-    - Modelo Lógico: é uma representação mais detalhada dos dados, considerando as restrições e integridade
-    - Modelo Físico: é a implementação física dos dados, considerando os recursos disponíveis e as necessidades de desempenho
+  - Modelo Conceitual: é uma representação abstrata dos dados, sem se preocupar com detalhes técnicos
+  - Modelo Lógico: é uma representação mais detalhada dos dados, considerando as restrições e integridade
+  - Modelo Físico: é a implementação física dos dados, considerando os recursos disponíveis e as necessidades de desempenho
 
-  4. Construa um DER simples para um **sistema de vendas** (Cliente, Produto, Pedido)
+4. Construa um DER simples para um **sistema de vendas** (Cliente, Produto, Pedido)
 
-    - Propriedades:
-     - Cliente: id, nome, email, telefone, endereço
-     - Produto: id, nome, descrição, preço, estoque
-     - Pedido: id, cliente_id, produto_id, quantidade, data, status
+  - Propriedades:
 
-    - Relacionamentos:
-      - Cliente faz Pedido
-      - Pedido envolve Produto
+    - Cliente: id, nome, email, telefone, endereço
+    - Produto: id, nome, descrição, preço, estoque
+    - Pedido: id, cliente_id, produto_id, quantidade, data, status
 
-    - Cardinalidades
-      - Cliente: 1:N com Pedido (Um cliente pode fazer N pedidos)
-      - Produto: 1:N com Pedido (Um produto pode estar em N pedidos)
-      - Pedido: 1:1 com Cliente e Produto (Um pedido é feito por um cliente e contém um produto)
+  - Relacionamentos:
 
-  5. Transforme esse DER em tabelas relacionais (modelo lógico):
+    - Cliente faz Pedido
+    - Pedido envolve Produto
 
-    | Tabela | Colunas |
-    |--------|---------|
-    | Cliente | id, nome, email, telefone, endereço |
-    | Produto | id, nome, descrição, preço, estoque |
-    | Pedido | id, cliente_id, produto_id, quantidade, data, status |
+  - Cardinalidades
 
-- Entidades, Atributos e Relacionamentos
+    - Cliente: 1:N com Pedido (Um cliente pode fazer N pedidos)
+    - Produto: 1:N com Pedido (Um produto pode estar em N pedidos)
+    - Pedido: 1:1 com Cliente e Produto (Um pedido é feito por um cliente e contém um produto)
 
-  1. Tipos de Entidades
+5. Transforme esse DER em tabelas relacionais (modelo lógico):
 
-    - Entidade Forte: é uma entidade que possui uma identidade única e persistente, como Cliente, Produto e Pedido
-    - Entidade Fraca: é uma entidade que não possui uma identidade única e persistente, como Endereço, Telefone e Email
-    - Entidade Associativa: é uma entidade que não possui uma identidade única e persistente, mas é necessária para estabelecer uma relação entre duas entidades fortes, como Pedido e Cliente.
+  | Tabela | Colunas |
+  |--------|---------|
+  | Cliente | id, nome, email, telefone, endereço |
+  | Produto | id, nome, descrição, preço, estoque |
+  | Pedido | id, cliente_id, produto_id, quantidade, data, status |
 
-  2. Tipos de Atributos
+### Entidades, Atributos e Relacionamentos
 
-    - Atributo Primário: é um atributo que identifica de forma única uma entidade, como id em Cliente, Produto e Pedido
-    - Atributo Secundário: é um atributo que não identifica de forma única uma entidade, como nome em Cliente, Produto e Pedido
-    - Atributo Composto: é um atributo que é composto por outros atributos, como email em Cliente
-    - Atributo Multivalorado: é um atributo que pode ter vários valores, como telefones em Cliente
-    - Atributo Opcional: é um atributo que pode ou não existir, como endereço em Cliente
-    - Identificador (ou chave): é um atributo que identifica de forma única uma entidade, como id em Cliente, Produto e Pedido
+1. Tipos de Entidades
 
-    Obs. Nem todo atributo é obrigatório, alguns podem ser opcionais.
+  - Entidade Forte: é uma entidade que possui uma identidade única e persistente, como Cliente, Produto e Pedido
+  - Entidade Fraca: é uma entidade que não possui uma identidade única e persistente, como Endereço, Telefone e Email
+  - Entidade Associativa: é uma entidade que não possui uma identidade única e persistente, mas é necessária para estabelecer uma relação entre duas entidades fortes, como Pedido e Cliente.
 
-  3. Tipos de Relacionamentos
+2. Tipos de Atributos
 
-    > Relacionamentos é a forma como entidades se relacionam entre si.
+  - Atributo Primário: é um atributo que identifica de forma única uma entidade, como id em Cliente, Produto e Pedido
+  - Atributo Secundário: é um atributo que não identifica de forma única uma entidade, como nome em Cliente, Produto e Pedido
+  - Atributo Composto: é um atributo que é composto por outros atributos, como email em Cliente
+  - Atributo Multivalorado: é um atributo que pode ter vários valores, como telefones em Cliente
+  - Atributo Opcional: é um atributo que pode ou não existir, como endereço em Cliente
+  - Identificador (ou chave): é um atributo que identifica de forma única uma entidade, como id em Cliente, Produto e Pedido
 
-    - Relacionamento Binário: é uma relação entre duas entidades fortes, como Cliente e Produto
-    - Relacionamento Ternário: é uma relação entre três entidades fortes, como Pedido, Cliente e Produto
-    - Relacionamento Recursivo: é uma relação entre uma entidade forte e ela mesma, como Categoria e Subcategoria
-    - Relacionamento Generalização/Especialização: é uma relação entre uma entidade forte e outra entidade forte, onde a primeira é uma generalização da segunda, como Produto e ProdutoEletronico
+  Obs. Nem todo atributo é obrigatório, alguns podem ser opcionais.
 
-  4. Tipos de Cardinalidade
+3. Tipos de Relacionamentos
 
-    > Cardinalidade é a quantidade máxima de entidades relacionadas a uma entidade.
+  > Relacionamentos é a forma como entidades se relacionam entre si.
 
-    - 1:1 (Um para Um) ---> Ex: Pessoa (1) ------ (1) Endereço
-    - 1:N (Um para Muitos) ---> Ex: Cliente (1) ------ (N) Pedidos
-    - N:N (Muitos para Muitos) ---> Ex: Aluno (N) ------ (N) Disciplina
+  - Relacionamento Binário: é uma relação entre duas entidades fortes, como Cliente e Produto
+  - Relacionamento Ternário: é uma relação entre três entidades fortes, como Pedido, Cliente e Produto
+  - Relacionamento Recursivo: é uma relação entre uma entidade forte e ela mesma, como Categoria e Subcategoria
+  - Relacionamento Generalização/Especialização: é uma relação entre uma entidade forte e outra entidade forte, onde a primeira é uma generalização da segunda, como Produto e ProdutoEletronico
 
-  5. Exemplo de DER (Diagrama de Entidade-Relacionamento) + SQL na [atividade 2 da aula 16](./atividades-presencial/modulo-3/aula_16_2.sql)
+4. Tipos de Cardinalidade
 
-    ![Diagrama de Entidade-Relacionamento](./public/drawSQL-16-image.png "Diagrama de Entidade-Relacionamento")
+  > Cardinalidade é a quantidade máxima de entidades relacionadas a uma entidade.
+
+  - 1:1 (Um para Um) ---> Ex: Pessoa (1) ------ (1) Endereço
+  - 1:N (Um para Muitos) ---> Ex: Cliente (1) ------ (N) Pedidos
+  - N:N (Muitos para Muitos) ---> Ex: Aluno (N) ------ (N) Disciplina
+
+5. Exemplo de DER (Diagrama de Entidade-Relacionamento) + SQL na [atividade 2 da aula 16](./atividades-presencial/modulo-3/aula_16_2.sql)
+
+  ![Diagrama de Entidade-Relacionamento](./public/drawSQL-16-image.png "Diagrama de Entidade-Relacionamento")
 
 ## 17º Aula
 
@@ -283,6 +290,7 @@
   - Vantagens do Modelo Relacional
   - Diferenças entre Modelos de Dados
   - Tipos de Chaves relacionais
+
     - Chave Primária (Primary Key - PK)
     - Chave Estrangeira (Foreign Key - FK)
     - Chave Candidata (Candidate Key)
@@ -301,3 +309,68 @@
 - Exemplo: Resolução para atividade sobre a base de dados de um hospital [mais detalhes no código](./atividades-presencial/modulo-3/aula_17.sql)
 
   ![Diagrama do Modelo Hospitalar](./public/drawSQL-17-image.png "Diagrama do Modelo Hospitalar")
+
+## 18º Normalização de Dados
+
+### Por que normalizar um banco de dados?
+
+- Ao projetar um banco de dados, é comum que os dados inicialmente fiquem **repetidos, mal organizados ou dificeis de atualizar**.
+- A normalização serve para **eliminar redundâncias** e **garantir integridade**, mantendo a consistência dos dados.
+
+### Problemas típicos em um banco não normalizado
+
+#### Redundancia de dados
+
+Mesmo dado aparece repetido várias vezes.
+
+#### Anomalias de inserção
+
+Dificuldade em inserir dados por falta de estrutura
+
+#### Anomalias de atualização
+
+Atualizar um valor em uma linha e esquecer de atualizar em outra causa inconsistência
+
+#### Anomalias de exclusão
+
+Ao excluir um registro, informações importantes são perdidas
+
+### O que é normalização?
+
+- É o processo de **organizar os dados em tabelas**, de forma a **minimizar redundâncias** e **garantir a integridadade dos dados**
+
+- Ela é baseada em **regras matemáticas formais** (chamadas de **Formas Normais**) desenvolvidas por **Edgar F. Codd**, o mesmo criador do modelo relacional.
+
+- Cada forma normal corrige um tipo específivo de problmea estrutural.
+
+### As Formas Normais (FN)
+
+#### Primeira Forma Normal (1FN)
+
+- Uma tabela esta na **1º Forma Normal** quando:
+
+  - Todos os tributos contêm **valores atômicos** (sem listas ou repetições).
+  - Não há **campos multivaloredos** (ex: "Telefone1, Telefone2, Telefone3").
+  - Cada coluna representa **um único tipo de dado**.
+
+#### Segunda Forma Normal (2FN)
+
+- Uma tabela esta na **2º Forma Normal** quando:
+
+  - Está na **1º Forma Normal** e
+  - **Todos os atributos não-chave** dependem **totalmente** da **chave primária** (não apenas de parte dela).
+
+#### Terceira Forma Normal (3FN)
+
+- Uma tabela esta na **3º Forma Normal** quando:
+
+  - Está na **2º Forma Normal** e
+  - **Não existe dependência transitiva**, ou seja, um campo não-chave **não depende de outro campo não-chave**
+
+#### Tabela Resumida
+
+| Tabela | O que Corrige | Regras Principais | Exemplo Simplificado |
+| ------ | ------------ | ----------------- | -------------------- |
+| 1FN | Campos multivalorados e repetitivos | Cada célula contém um único valor | Um aluno tem vários telefones --> criar tabela separada |
+| 2FN | Dependências parciais | Todos os campos dependem da chave completa | NomeAluno depende só de RA, nã da chave composta |
+| 3FN | Dependências transitivas | Campos não-chave não dependem de outros campos não-chave | NomeProfessor depende de CodProf, não de CodDisc |
