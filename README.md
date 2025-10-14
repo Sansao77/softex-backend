@@ -369,8 +369,8 @@ Ao excluir um registro, informações importantes são perdidas
 
 #### Tabela Resumida
 
-| Tabela | O que Corrige | Regras Principais | Exemplo Simplificado |
-| ------ | ------------ | ----------------- | -------------------- |
-| 1FN | Campos multivalorados e repetitivos | Cada célula contém um único valor | Um aluno tem vários telefones --> criar tabela separada |
-| 2FN | Dependências parciais | Todos os campos dependem da chave completa | NomeAluno depende só de RA, nã da chave composta |
-| 3FN | Dependências transitivas | Campos não-chave não dependem de outros campos não-chave | NomeProfessor depende de CodProf, não de CodDisc |
+  | Tabela | O que Corrige | Regras Principais | Exemplo Simplificado |
+  | ------ | ------------ | ----------------- | -------------------- |
+  | 1FN | Campos multivalorados e repetitivos | Cada célula contém um único valor | Um aluno tem vários telefones --> criar tabela separada |
+  | 2FN | Dependências parciais | Todos os campos dependem da chave completa | NomeAluno depende só de RA, nã da chave composta |
+  | 3FN | Dependências transitivas | Campos não-chave não dependem de outros campos não-chave | NomeProfessor depende de CodProf, não de CodDisc |
