@@ -64,7 +64,7 @@
 
 3. Construa o **modelo lógico relacional** com PKs e FKs
 
-  ![SQL Sistema Escolar Alfa](/media/sansao/CANAIS/projetos/javascript/softex-backend/public/drawSQL-escola.png)
+  ![SQL Sistema Escolar Alfa](../../public/drawSQL-escola.png)
 
 4. Verifique se o modelo está **normalizado até 3FN**.
 

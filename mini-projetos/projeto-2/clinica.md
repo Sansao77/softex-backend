@@ -54,7 +54,7 @@
 
 3. Transforme o modelo conceitual em modelo lógico relacional
 
-  ![SQL Clínica Vida Plena e Saúde](/media/sansao/CANAIS/projetos/javascript/softex-backend/public/drawSQL-clinica.png)
+  ![SQL Clínica Vida Plena e Saúde](../../public/drawSQL-clinica.png)
 
 4. Identifique as chaves primarias e secundarias
 
