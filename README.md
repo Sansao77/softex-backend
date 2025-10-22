@@ -310,7 +310,7 @@
 
   ![Diagrama do Modelo Hospitalar](./public/drawSQL-17-image.png "Diagrama do Modelo Hospitalar")
 
-## 18º Normalização de Dados
+## 18º Aula - Normalização de Dados
 
 ### Por que normalizar um banco de dados?
 
@@ -374,3 +374,17 @@ Ao excluir um registro, informações importantes são perdidas
   | 1FN | Campos multivalorados e repetitivos | Cada célula contém um único valor | Um aluno tem vários telefones --> criar tabela separada |
   | 2FN | Dependências parciais | Todos os campos dependem da chave completa | NomeAluno depende só de RA, nã da chave composta |
   | 3FN | Dependências transitivas | Campos não-chave não dependem de outros campos não-chave | NomeProfessor depende de CodProf, não de CodDisc |
+
+## 19º Aula - Introdução a linguagem SQL
+
+### O que é SQL?
+
+  - SQL (Structured Query Language) é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Ela é baseada em **regras matemáticas formais** (chamadas de **Formas Normais**) desenvolvidas por **Edgar F. Codd**, o mesmo criador do modelo relacional.
+  - Ela é dividida em subconjuntos, de acordo com o tipo de operação que deseja realizar.
+
+    | Tipo | Nome Completo | Finalidade | Comandos |
+    | ------ | ------------ | ----------------- | -------------------- |
+    | DDL | Data Definition Language | Criar e alterar tabelas | CREATE, ALTER, DROP |
+    | DML | Data Manipulation Language | Inserir, atualizar e excluir dados | INSERT, UPDATE, DELETE, SELECT |
+    | DCL | Data Control Language | Gerenciar permissões e segurança | GRANT, REVOKE |
+    | TCL | Transaction Control Language | Gerenciar transações | COMMIT, ROLLBACK |
