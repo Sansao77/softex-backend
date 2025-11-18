@@ -5,6 +5,8 @@
 ## Projetos Relacionados ao curso
 
 - Projeto do Modulo 1 - [Votação de Cardeais](https://github.com/Sansao77/eleicao_papa)
+- Projeto do Modulo 2 - [SMPE - Sistema de Monitoramento de Pedidos em Estoque](https://github.com/Sansao77/sistema_estoque)
+- Projeto do Modulo 3 - [Sistema de Gestão de Hortas](https://github.com/Sansao77/sistema_gestao_horta)
 
 ## 1º Aula (Introdução) [[Atividade relacionada](./atividades-presencial/modulo-1/aula_1.js)]
 
@@ -379,12 +381,62 @@ Ao excluir um registro, informações importantes são perdidas
 
 ### O que é SQL?
 
-  - SQL (Structured Query Language) é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Ela é baseada em **regras matemáticas formais** (chamadas de **Formas Normais**) desenvolvidas por **Edgar F. Codd**, o mesmo criador do modelo relacional.
-  - Ela é dividida em subconjuntos, de acordo com o tipo de operação que deseja realizar.
+- SQL (Structured Query Language) é uma linguagem de programação usada para gerenciar e manipular bancos de dados relacionais. Ela é baseada em **regras matemáticas formais** (chamadas de **Formas Normais**) desenvolvidas por **Edgar F. Codd**, o mesmo criador do modelo relacional.
+- Ela é dividida em subconjuntos, de acordo com o tipo de operação que deseja realizar.
 
-    | Tipo | Nome Completo | Finalidade | Comandos |
-    | ------ | ------------ | ----------------- | -------------------- |
-    | DDL | Data Definition Language | Criar e alterar tabelas | CREATE, ALTER, DROP |
-    | DML | Data Manipulation Language | Inserir, atualizar e excluir dados | INSERT, UPDATE, DELETE, SELECT |
-    | DCL | Data Control Language | Gerenciar permissões e segurança | GRANT, REVOKE |
-    | TCL | Transaction Control Language | Gerenciar transações | COMMIT, ROLLBACK |
+| Tipo | Nome Completo | Finalidade | Comandos |
+| ------ | ------------ | ----------------- | -------------------- |
+| DDL | Data Definition Language | Criar e alterar tabelas | CREATE, ALTER, DROP |
+| DML | Data Manipulation Language | Inserir, atualizar e excluir dados | INSERT, UPDATE, DELETE, SELECT |
+| DCL | Data Control Language | Gerenciar permissões e segurança | GRANT, REVOKE |
+| TCL | Transaction Control Language | Gerenciar transações | COMMIT, ROLLBACK |
+
+## 20º Aula - Conceitos de Backend, Frontend e APIs com Node.js
+
+### Anatomia de uma Requisição HTTP
+
+- Uma requisição HTTP é composta por três partes principais: **Método**, **URL** e **Cabeçalhos**.
+
+  1. Método: Especifica o tipo de operação que será realizada na requisição. Exemplos: GET, POST, PUT, DELETE.
+  2. URL: Identifica o recurso alvo da requisição. Exemplo: /users/123.
+  3. Cabeçalhos: Informações adicionais sobre a requisição, como autenticação, linguagem preferida, etc.
+
+- Exemplo real (em JSON):
+
+  ```json
+  {
+    "method": "GET",
+    "url": "/users/123",
+    "headers": {
+      "Host": "example.com",
+      "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+      "Accept-Language": "pt-BR"
+    }
+  }
+  ```
+  
+### Códigos de Status HTTP
+
+- O servidor sempre retorna um código de status HTTP para indicar o resultado da requisição.
+
+| Código | Categoria | Significado | Descrição |
+| ------ | ----------- | ----------- | ----------- |
+| 200 | Sucesso | OK | Requisição bem-sucedida |
+| 201 | Sucesso | Created | Recurso criado com sucesso |
+| 400 | Erro no lado do Cliente | Bad Request | Requisição mal-formada |
+| 401 | Erro no lado do Cliente | Unauthorized | Acesso não autorizado |
+| 404 | Erro no lado do Cliente | Not Found | Recurso não encontrado |
+| 500 | Erro no lado do Servidor | Internal Server Error | Erro interno do servidor |
+
+### O que é uma API REST?
+
+- Uma API REST (Representational State Transfer) é uma arquitetura de software que define um conjunto de regras para a criação de serviços web. Ela utiliza o protocolo HTTP para realizar operações CRUD (Create, Read, Update, Delete) em recursos representados por URLs.
+- Métodos HTTP
+  
+  - GET (leitura)
+  - POST (criação)
+  - PUT (atualização)
+  - DELETE (exclusão)
+
+- Stateless: Cada requisição é independente (o servidor não armazena estado entre requisições)
+- Formato padronizado de dados (geralmente JSON)
